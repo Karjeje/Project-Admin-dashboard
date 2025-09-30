@@ -43,3 +43,51 @@ ul svg {
     height: 1em;
     fill: currentColor;
 }
+
+.header svg {
+    width: 1em;
+    height: 1em;
+}
+
+.upperhead {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.lowerhead {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bottomleft {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-self: start;
+}
+
+.bottomleft svg {
+    grid-row: 1 / 5;
+    width: 70px;
+    height: 70px;
+}
+
+.greeting {
+    grid-row: 2 / 3;
+}
+
+.name {
+    grid-row: 3/4;
+}
+
+.bottomright {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.header button {
+    padding: 6px 20px;
+    background: lightblue;
+}
