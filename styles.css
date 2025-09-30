@@ -27,3 +27,19 @@
 .main {
     background-color: green;
 }
+
+.brand svg {
+  width: 3em;
+  height: 3em;
+  fill: currentColor;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul svg {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
