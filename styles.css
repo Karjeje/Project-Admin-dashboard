@@ -27,6 +27,9 @@
 
 .main {
     background-color: green;
+    display: grid;
+    grid-template-columns: 13fr 5fr;
+    grid-template-rows: auto 1fr auto 1fr
 }
 
 .brand svg {
@@ -91,4 +94,28 @@ ul svg {
 .header button {
     padding: 6px 20px;
     background: lightblue;
+}
+
+.project-container div {
+    width: auto;
+    height: auto;
+    background-color: brown;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+    grid-row: 2 / 5;
+}
+
+.main span:nth-of-type(3) {
+    grid-column: 2 / 3;
+
+}
+
+.announcements, .trending {
+    width: auto;
+    height: auto;
+    background-color: beige;
 }
