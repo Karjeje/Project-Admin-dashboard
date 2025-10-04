@@ -110,6 +110,7 @@ ul svg {
     align-items: center;
     justify-items: end;
     gap: 18px;
+    margin-right: 10px;
 }
 
 .upperright span {
