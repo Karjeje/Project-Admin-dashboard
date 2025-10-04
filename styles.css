@@ -131,33 +131,43 @@ ul svg {
     display: grid;
     grid-template-columns: auto auto;
     justify-self: start;
+    column-gap: 10px;
 }
 
 .bottomleft svg {
     grid-row: 1 / 5;
     width: 70px;
     height: 70px;
+    fill: rgb(220, 176, 15);
 }
 
 .greeting {
     grid-row: 2 / 3;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .name {
     grid-row: 3/4;
+    font-weight: 700;
 }
 
 .bottomright {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto);
     align-items: center;
     justify-content: flex-end;
+    gap: 20px;
 
 }
 
 .header button {
-    padding: 6px 20px;
-    background: lightblue;
+    padding: 8px 24px;
+    background: rgba(30, 131, 204, 0.858);
+    color: rgba(255, 255, 255, 0.917);
+    font-weight: 700;
+    border: none;
+    border-radius: 16px;
 }
 
 .project-container div {
