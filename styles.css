@@ -175,17 +175,35 @@ ul svg {
     border-radius: 16px;
 }
 
-.project-container div {
+.project-container > div {
     width: auto;
     height: auto;
-    background-color: brown;
+    background-color: white;
+    border-left: 8px solid rgba(255, 166, 0, 0.796);
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.project-container > div > span {
+    font-weight: 700;
+}
+
+.project-container > div > p {
+    font-size: 14px;
 }
 
 .project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
+    gap: 20px;
     grid-row: 2 / 5;
+    padding: 0 10px;
+}
+
+.main > span {
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .main span:nth-of-type(3) {
