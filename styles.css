@@ -228,6 +228,7 @@ ul svg {
     padding: 20px;
     border-radius: 10px;
     font-size: 10px;
+    margin-bottom: 20px;
 }
 
 .announcements div {
@@ -268,14 +269,15 @@ ul svg {
 }
 
 .trending svg {
-    width: 2em;
-    height: 2em;
+    width: 3em;
+    height: 3em;
 }
 
 .profile {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 12px;
+    align-items: center;
 }
 
 .subtitle {
