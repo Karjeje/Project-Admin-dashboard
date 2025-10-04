@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    background-color: black;
 }
 
 .container {
@@ -14,8 +19,9 @@
 }
 
 .header {
-    background-color: red;
+    background-color: white;
     grid-column: 2 / 3;
+    padding: 10px 30px;
 
 }
 
@@ -72,13 +78,48 @@ ul svg {
 }
 
 .header svg {
-    width: 1em;
-    height: 1em;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .upperhead {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.upperleft {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 14px;
+}
+
+.upperleft input {
+    border: none;
+    background-color: rgb(221, 220, 220);
+    height: 24px;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.upperright {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    justify-items: end;
+    gap: 18px;
+}
+
+.upperright span {
+    font-weight: 600;
+}
+
+.upperright svg:nth-child(2) {
+    width: 2.5em;
+    height: 2.5em;
+    fill: rgb(220, 176, 15);
 }
 
 .lowerhead {
