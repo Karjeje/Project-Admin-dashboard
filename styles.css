@@ -22,7 +22,8 @@ html {
     background-color: white;
     grid-column: 2 / 3;
     padding: 10px 30px;
-
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .sidebar {
@@ -33,11 +34,12 @@ html {
 }
 
 .main {
-    background-color: green;
+    background-color: lightgray;
     display: grid;
     grid-template-columns: 13fr 5fr;
     grid-template-rows: auto 1fr auto 1fr;
     gap: 10px;
+    padding-top: 30px;
 }
 
 .brand {
