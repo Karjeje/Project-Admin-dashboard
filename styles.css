@@ -39,12 +39,26 @@
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 10px;
+    margin-bottom: 40px;
 }
 
 .brand svg {
   width: 3em;
   height: 3em;
   fill: currentColor;
+}
+
+.firstul li, .secondul li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.firstul {
+    margin-bottom: 40px;
 }
 
 ul {
