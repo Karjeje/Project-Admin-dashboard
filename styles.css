@@ -273,6 +273,10 @@ ul svg {
     height: 3em;
 }
 
+.trending .profile:nth-of-type(2) svg {
+    fill: rgb(220, 176, 15);
+}
+
 .profile {
     display: grid;
     grid-template-columns: 1fr 3fr;
